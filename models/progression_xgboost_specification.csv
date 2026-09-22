@@ -1,0 +1,12 @@
+parameter,value
+objective,binary:logistic
+eval_metric,auc
+nrounds,100
+max_depth,2
+eta,0.05
+subsample,0.8
+colsample_bytree,0.8
+nthread,1
+positive_class,Active TB
+native_output,P(Active TB)
+
